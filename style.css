@@ -51,7 +51,7 @@ nav {
 
 nav > a {
     color: var(--text-on-charcoal);
-    margin: 1rem 0.9rem 1rem 0.9rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 /* Content Styles */
@@ -59,6 +59,7 @@ nav > a {
 main {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2rem;
@@ -66,8 +67,16 @@ main {
     max-width: 60rem;
 }
 
-#image {
-    float: right;
+#intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (width <= 550px) {
+    #intro {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 /* Footer Styles */
@@ -82,7 +91,11 @@ footer {
     font-size: smaller;
 }
 
-/* General Text Styles */
+/* General Styles */
+
+img {
+    margin: 2rem;
+}
 
 a {
     text-decoration: none;
@@ -96,6 +109,7 @@ button {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+    margin-bottom: 1rem;
     padding: 1rem;
     transition-property: background-color;
     transition-duration: 500ms;
