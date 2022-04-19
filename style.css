@@ -13,6 +13,7 @@
     background: var(--base);
     color: var(--text);
     font-family: sans-serif;
+    scroll-behavior: smooth;
     
     /* Normalization */
     line-height: 1.15;
