@@ -15,7 +15,7 @@
     
     /* Normalization */
     line-height: 1.15;
-	-webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -42,5 +42,5 @@ nav > a {
     color: var(--text-on-charcoal);
     margin: 1rem 0.9rem 1rem 0.9rem;
     text-decoration: none;
-	font-weight: bold;
+    font-weight: bold;
 }
