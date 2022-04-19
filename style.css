@@ -6,7 +6,7 @@
     --text: black;
     --charcoal: #242424;
     --text-on-charcoal: white;
-    --alert: red;
+    --alert: #951010;
     
     /* Basic Styles */
     background: var(--base);
@@ -26,6 +26,11 @@ body {
 
 header {
     background: var(--alert);
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
 }
 
 /* Navbar Styles */
@@ -43,4 +48,26 @@ nav > a {
     margin: 1rem 0.9rem 1rem 0.9rem;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Footer Styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    filter: brightness(40%);
+    font-size: smaller;
+}
+
+/* Text Styles */
+
+.bold {
+    font-weight: bold;
+}
+
+.larger {
+    font-size: larger;
 }
