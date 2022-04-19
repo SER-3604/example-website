@@ -49,8 +49,6 @@ nav {
 nav > a {
     color: var(--text-on-charcoal);
     margin: 1rem 0.9rem 1rem 0.9rem;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 /* Footer Styles */
@@ -66,6 +64,11 @@ footer {
 }
 
 /* Text Styles */
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .bold {
     font-weight: bold;
