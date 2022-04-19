@@ -41,7 +41,6 @@ header {
 
 nav {
     background: var(--charcoal);
-    background-image: url("resources/slate.webp");
     display: flex;
     justify-content: space-evenly;
     padding-left: 30%;
