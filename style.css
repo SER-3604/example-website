@@ -2,6 +2,8 @@
 
 :root {
     background: white;
+    color: black;
+    font-family: sans-serif;
     /* Normalization */
     line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
