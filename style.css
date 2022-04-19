@@ -9,6 +9,7 @@
     --alert: #951010;
     --text-on-alert: white;
     --rich-red: #d2252d;
+    --light-red: #fc2f3a;
     
     /* Basic Styles */
     background: var(--base);
@@ -87,16 +88,18 @@ a {
 button {
     background-color: var(--rich-red);
     border: none;
+    border-radius: 12px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    transition-property: filter;
-    transition-delay: 1000ms;
+    padding: 1rem;
+    transition-property: background-color;
+    transition-duration: 500ms;
     transition-timing-function: ease-out;
 }
 
 button:hover {
-    filter: brightness(50%);
+    background-color: var(--light-red);
 }
 
 .bold {
