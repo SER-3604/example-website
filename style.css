@@ -21,6 +21,7 @@
 }
 
 body {
+    /* Normalization */
     margin: 0;
 }
 
@@ -51,6 +52,18 @@ nav > a {
     margin: 1rem 0.9rem 1rem 0.9rem;
 }
 
+/* Content Styles */
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 40rem;
+}
+
 /* Footer Styles */
 
 footer {
@@ -63,7 +76,7 @@ footer {
     font-size: smaller;
 }
 
-/* Text Styles */
+/* General Text Styles */
 
 a {
     text-decoration: none;
