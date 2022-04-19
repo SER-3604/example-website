@@ -7,6 +7,7 @@
     --charcoal: #242424;
     --text-on-charcoal: white;
     --alert: #951010;
+    --text-on-alert: white;
     
     /* Basic Styles */
     background: var(--base);
@@ -26,6 +27,7 @@ body {
 
 header {
     background: var(--alert);
+    color: var(--text-on-alert);
     display: flex;
     justify-content: center;
     padding-left: 2rem;
