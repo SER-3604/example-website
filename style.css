@@ -41,6 +41,7 @@ header {
 
 nav {
     background: var(--charcoal);
+    background-image: url("resources/background.jpg");
     display: flex;
     justify-content: space-evenly;
     padding-left: 30%;
