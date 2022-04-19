@@ -72,7 +72,7 @@ main {
     justify-content: space-between;
 }
 
-@media (width <= 400px) {
+@media (max-width: 550px) {
     #intro {
         flex-direction: column;
         justify-content: center;
