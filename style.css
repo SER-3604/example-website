@@ -104,6 +104,7 @@ a {
 
 button {
     background-color: var(--rich-red);
+    color: var(--text-on-alert);
     border: none;
     border-radius: 12px;
     text-align: center;
