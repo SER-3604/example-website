@@ -90,6 +90,13 @@ button {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+    transition-property: filter;
+    transition-delay: 1000ms;
+    transition-timing-function: ease-out;
+}
+
+button:hover {
+    filter: brightness(50%);
 }
 
 .bold {
