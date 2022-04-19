@@ -8,6 +8,7 @@
     --text-on-charcoal: white;
     --alert: #951010;
     --text-on-alert: white;
+    --rich-red: #d2252d;
     
     /* Basic Styles */
     background: var(--base);
@@ -79,6 +80,14 @@ footer {
 /* General Text Styles */
 
 a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--rich-red);
+    border: none;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
 }
