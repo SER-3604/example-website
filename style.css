@@ -1,9 +1,18 @@
 /* Base Styles */
 
 :root {
-    background: white;
-    color: black;
+    /* Color Scheme Variables */
+    --base: white;
+    --text: black;
+    --charcoal: #333333;
+    --text-on-charcoal: white;
+    --alert: red;
+    
+    /* Basic Styles */
+    background: var(--base);
+    color: var(--text);
     font-family: sans-serif;
+    
     /* Normalization */
     line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -16,14 +25,14 @@ body {
 /* Unofficial Notice Banner Styles */
 
 header {
-    background: red;
+    background: var(--alert);
 }
 
 /* Navbar Styles */
 
 nav {
-    background: #333333;
-    color: white;
+    background: var(--charcoal);
+    color: var(--text-on-charcoal);
     display: flex;
     justify-content: space-evenly;
     padding-left: 30%;
