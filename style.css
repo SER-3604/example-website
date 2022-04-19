@@ -9,3 +9,16 @@
 body {
     margin: 0;
 }
+
+/* Unofficial Notice Banner Styles */
+
+header {
+    background: red;
+}
+
+/* Navbar Styles */
+
+nav {
+    display: flex;
+    justify-content: evenly;
+}
