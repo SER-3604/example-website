@@ -66,6 +66,12 @@ main {
     max-width: 60rem;
 }
 
+main > intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 0;
+}
+
 /* Footer Styles */
 
 footer {
